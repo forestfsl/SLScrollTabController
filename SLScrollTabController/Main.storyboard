@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mEr-aE-RM4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Discover-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.24899906519912451" green="0.27218870844272136" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" image="tabbar_discover" selectedImage="tabbar_discoverHL" id="QPU-F9-BRu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6929" y="690"/>
+        </scene>
+        <!--Me-->
+        <scene sceneID="PF3-lV-aSu">
+            <objects>
+                <viewController id="D7k-Eg-9r6" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="psf-S6-h8x"/>
+                        <viewControllerLayoutGuide type="bottom" id="BQG-r6-njY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jdg-fd-Ilo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me" image="tabbar_me" selectedImage="tabbar_meHL" id="YMF-em-bmP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EIw-eq-N4o" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5996" y="690"/>
+        </scene>
+        <!--Chats-->
+        <scene sceneID="WhP-a9-GiK">
+            <objects>
+                <viewController id="kqd-5X-RD9" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fud-uS-Jkf"/>
+                        <viewControllerLayoutGuide type="bottom" id="94h-rz-dDb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IBq-Fv-m7D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.89300079515137654" green="0.88246535473039878" blue="0.08298533084373684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chats" image="tabbar_wechat" selectedImage="tabbar_wechatHL" id="wA3-ye-CNS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yEr-FE-0ZP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8410" y="709"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="XBb-WT-p8P">
+            <objects>
+                <viewController id="3Ns-YZ-Og1" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sJb-ZQ-VIq"/>
+                        <viewControllerLayoutGuide type="bottom" id="tYx-4I-X6f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lLv-HM-Qft">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.060289344774955143" green="0.74202887055837563" blue="0.19482386696528592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="tabbar_contacts" selectedImage="tabbar_contactsHL" id="W5p-wT-1Qp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcs-Zq-ZR4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7606" y="691"/>
+        </scene>
+        <!--Scroll Tab Bar Controller-->
+        <scene sceneID="Zuu-Qw-kxS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mEr-aE-RM4" customClass="ScrollTabBarController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="lfh-vU-SQs">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.21613263621249723" green="0.89185437817258884" blue="0.11904287765173946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kqd-5X-RD9" kind="relationship" relationship="viewControllers" id="1Zr-xV-nba"/>
+                        <segue destination="3Ns-YZ-Og1" kind="relationship" relationship="viewControllers" id="fHP-ql-YZS"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Luo-4f-bbk"/>
+                        <segue destination="D7k-Eg-9r6" kind="relationship" relationship="viewControllers" id="W0b-Tg-aqc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h2P-Y5-fDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7662" y="-281"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_contacts" width="27" height="23"/>
+        <image name="tabbar_contactsHL" width="27" height="23"/>
+        <image name="tabbar_discover" width="23" height="23"/>
+        <image name="tabbar_discoverHL" width="23" height="23"/>
+        <image name="tabbar_me" width="23" height="23"/>
+        <image name="tabbar_meHL" width="23" height="23"/>
+        <image name="tabbar_wechat" width="25" height="23"/>
+        <image name="tabbar_wechatHL" width="25" height="23"/>
+    </resources>
+</document>
